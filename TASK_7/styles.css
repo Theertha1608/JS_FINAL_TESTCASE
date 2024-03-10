@@ -14,19 +14,10 @@ body {
 }
 
 h2 {
+    text-align: center;
     margin-bottom: 20px;
 }
-
-input[type="text"] {
-    padding: 8px;
-    width: 200px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    margin-right: 10px;
-}
-
-button {
+input[type="submit"] {
     padding: 10px 20px;
     background-color: #032e07;
     color: #fff;
@@ -36,11 +27,13 @@ button {
     font-size: 16px;
 }
 
-button:hover {
-    background-color: #2a2b2a;
+input[type="text"],
+input[type="password"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 250px;
 }
 
-p {
-    margin-top: 20px;
-    font-size: 18px;
+#error-msg {
+    color: rgb(0, 0, 0);
 }
