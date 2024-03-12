@@ -18,7 +18,7 @@ function sortArray(numbers) {
     for (let i = 0; i < numbers.length; i++) {
         for (let j = i + 1; j < numbers.length; j++) {
             if (numbers[i] > numbers[j]) {
-                [numbers[i], numbers[j]] = [numbers[j], numbers[i]]; // Destructuring assignment for swapping
+                [numbers[i], numbers[j]] = [numbers[j], numbers[i]];
             }
         }
     }
@@ -43,7 +43,7 @@ function fibonacciSequence(nTerms) {
     }
 }
 
-// Function to handle user input
+
 function askQuestion(question) {
     const rl = readline.createInterface({
         input: process.stdin,
